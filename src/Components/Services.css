@@ -29,8 +29,8 @@
   border-color: green !important;
   transition-property: scale, border-color;
 }
-.serviceCard > div > h3 {
-  font-weight: 600;
+.serviceCard > div > div > h3 {
+  font-weight: 600 !important;
 }
 .cardsContainer {
   /* height: calc(var(--card-height) * 2 - 45px); */
