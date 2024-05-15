@@ -1,0 +1,37 @@
+.titleParagraph {
+  max-width: 375px;
+  color: white;
+}
+.titleHeader {
+  max-width: 550px;
+  color: white;
+}
+/* @media (min-width: 992px) {
+  .container {
+    padding: var(--default-padding) !important;
+  }
+} */
+.container {
+  /* width: 85vw; */
+  margin-right: 0;
+  margin-left: 0;
+}
+.backgroundImg {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+.Container {
+  /* height: 175px; */
+  padding-top: 175px;
+  align-items: end;
+  display: flex;
+  margin: 0 auto;
+  width: 85vw;
+}
+.titleButton {
+  border-radius: 44px;
+  padding: 15px 25px;
+  font-weight: bold;
+}

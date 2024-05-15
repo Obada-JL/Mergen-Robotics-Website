@@ -1,0 +1,33 @@
+.navbar {
+  left: 52%;
+  top: 3%;
+  justify-content: space-around;
+  position: fixed;
+  width: 65vw;
+  padding: 15px 50px;
+  transform: translate(-50%, 0%);
+  z-index: 5;
+  backdrop-filter: blur(25px);
+  background-color: rgba(19, 19, 23, 0.4);
+  border-radius: 44px;
+  filter: saturate(1.8);
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: end;
+  }
+}
+.navbar-nav {
+  gap: 15px;
+  color: white !important;
+}
+.nav-link {
+  color: #ffffffcc;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}

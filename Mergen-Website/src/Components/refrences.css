@@ -1,0 +1,16 @@
+.refrencesContainer {
+  backdrop-filter: blur(25px);
+  background-color: rgba(19, 19, 23, 0.4);
+  padding: 25px 0;
+  filter: saturate(1.8);
+  opacity: 0.8;
+  display: flex;
+  flex-wrap: wrap;
+}
+.refrence {
+  transition-duration: 0.5s;
+}
+.refrence:hover {
+  scale: 103%;
+  cursor: pointer;
+}

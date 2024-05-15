@@ -1,0 +1,84 @@
+:root {
+  --card-height: 120px;
+}
+.servicesContainer {
+  margin: 0 auto;
+  width: 85vw;
+}
+.titleDescription {
+  font-size: 18px;
+}
+.serviceCard {
+  border: 0;
+  padding: 0 !important;
+}
+.mainCardText {
+  z-index: 1;
+  position: relative;
+  width: 300px;
+  height: var(--card-height);
+  border-radius: 35px;
+  border: 2px solid black;
+  padding: 20px 50px;
+  background-color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.mainCardText:hover {
+  scale: 103%;
+  border-color: green !important;
+  transition-property: scale, border-color;
+}
+.serviceCard > div > h3 {
+  font-weight: 600;
+}
+.cardsContainer {
+  /* height: calc(var(--card-height) * 2 - 45px); */
+  /* justify-content: center; */
+}
+.serviceCard:nth-child(even) {
+  /* align-self: flex-end; */
+  margin-top: calc(var(--card-height) - 25px);
+}
+.cardLinks {
+  cursor: pointer;
+}
+.detailCard {
+  width: 300px;
+  height: calc(var(--card-height) / 1) !important;
+  border: 2px solid black;
+  border-radius: 0 !important;
+  position: absolute !important;
+  z-index: 0 !important;
+  margin-top: -120px;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: end;
+  gap: 5px;
+  padding: 2px 10px;
+}
+@keyframes openCard {
+  0% {
+    margin-top: -120px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: -25px;
+    opacity: 1;
+  }
+}
+@keyframes closeCard {
+  from {
+    opacity: 1;
+    margin-top: -25px;
+  }
+  to {
+    opacity: 0;
+    margin-top: -120px;
+  }
+}
+p {
+  margin-bottom: 0;
+}
