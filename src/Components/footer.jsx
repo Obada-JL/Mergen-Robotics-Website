@@ -9,7 +9,7 @@ import {
 import "./Footer.css";
 function Footer() {
   return (
-    <div className="border-top border-2 border-dark">
+    <div className="border-top border-2 border-dark footerContainer">
       <div className="d-flex justify-content-between align-items-center w-100 ps-5 pe-5  pt-3 pb-3">
         <div>
           <img src={Logo} width={150} />
@@ -17,21 +17,27 @@ function Footer() {
         <div className="d-flex flex-column justify-content-center">
           <ul className="SocialMediaLogos">
             <li>
-              <FontAwesomeIcon icon={faLinkedin} className="socialMediaIcon" />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="socialMediaIcon linkedin"
+              />
             </li>
             <li>
-              <FontAwesomeIcon icon={faInstagram} className="socialMediaIcon" />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="socialMediaIcon instagram"
+              />
             </li>
             <li>
               <FontAwesomeIcon
                 icon={faSquareFacebook}
-                className="socialMediaIcon"
+                className="socialMediaIcon facebook"
               />
             </li>
             <li>
               <FontAwesomeIcon
                 icon={faSquareXTwitter}
-                className="socialMediaIcon"
+                className="socialMediaIcon twitter"
               />
             </li>
           </ul>
@@ -43,10 +49,10 @@ function Footer() {
           <h4 className="text-center text-decoration-underline fw-bold h5">
             Links
           </h4>
-          <ul className="h5">
-            <li>Hakkımızda</li>
-            <li>Sektörler</li>
-            <li>İletişim</li>
+          <ul className="h5 footerLinks">
+            <li className="footerLink">Hakkımızda</li>
+            <li className="footerLink">Sektörler</li>
+            <li className="footerLink">İletişim</li>
           </ul>
         </div>
       </div>

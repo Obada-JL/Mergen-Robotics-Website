@@ -9,3 +9,43 @@
 .socialMediaIcon {
   font-size: 25px;
 }
+.footerContainer {
+  background-color: rgb(240, 240, 240);
+}
+.linkedin:hover,
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+  scale: 110%;
+  cursor: pointer;
+}
+.linkedin,
+.facebook,
+.instagram,
+.twitter {
+  transition-duration: 0.5s;
+  transition-property: scale color;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.twitter:hover {
+  color: rgb(15, 20, 25);
+}
+.facebook:hover {
+  color: #0866ff;
+}
+.instagram:hover {
+  color: rgba(98, 40, 215, 1);
+}
+.footerLink {
+  transition-property: text-decoration, color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: rgb(42, 42, 42);
+  font-weight: 600;
+}
+.footerLink:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
