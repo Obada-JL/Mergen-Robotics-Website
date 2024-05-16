@@ -49,7 +49,9 @@ function Contact() {
                   className="ContactInput"
                 />
               </label>
-              <button className="contactButton">Submit</button>
+              <button className="contactButton background-light text-dark">
+                Submit
+              </button>
             </form>
           </div>
         </div>
