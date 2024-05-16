@@ -11,11 +11,11 @@ function Title() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odit
           sapiente
         </h2>
-        <p className="titleParagraph">
+        <p className="titleParagraph mb-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
           libero cum aut similique reprehenderit omnis,
         </p>
-        <button className="titleButton">
+        <button className="titleButton bg-secondary text-light">
           Devamını oku <span className="h5 fw-bold">&rarr;</span>
         </button>
       </div>

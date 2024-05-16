@@ -23,9 +23,9 @@ function Services() {
   return (
     <div className="mt-5 pt-3">
       <div className="servicesContainer">
-        <div className="Headings">
+        <div className="Headings text-center">
           <h1 className="text-decoration-underline fw-bold">Sektörlerimiz</h1>
-          <p className="w-75 pt-3 titleDescription">
+          <p className="text-wrap pt-3 titleDescription">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
             necessitatibus. Odio itaque adipisci facilis possimus inventore
             consequatur, et reiciendis, ipsam architecto,
@@ -42,11 +42,8 @@ function Services() {
               >
                 <div>
                   <h3>Service 1</h3>
-                  <a
-                    href="#"
-                    className="text-primary text-decoration-underline cardLinks"
-                  >
-                    See More
+                  <a className="text-primary text-decoration-underline cardLinks">
+                    See Details
                   </a>
                 </div>
                 <FontAwesomeIcon
@@ -77,11 +74,8 @@ function Services() {
               >
                 <div>
                   <h3>Service 1</h3>
-                  <a
-                    href="#"
-                    className="text-primary text-decoration-underline cardLinks"
-                  >
-                    See More
+                  <a className="text-primary text-decoration-underline cardLinks">
+                    See Details
                   </a>
                 </div>
                 <FontAwesomeIcon
@@ -112,11 +106,8 @@ function Services() {
               >
                 <div>
                   <h3>Service 1</h3>
-                  <a
-                    href="#"
-                    className="text-primary text-decoration-underline cardLinks"
-                  >
-                    See More
+                  <a className="text-primary text-decoration-underline cardLinks">
+                    See Details
                   </a>
                 </div>
                 <FontAwesomeIcon
@@ -147,11 +138,8 @@ function Services() {
               >
                 <div>
                   <h3>Service 1</h3>
-                  <a
-                    href="#"
-                    className="text-primary text-decoration-underline cardLinks"
-                  >
-                    See More
+                  <a className="text-primary text-decoration-underline cardLinks">
+                    See Details
                   </a>
                 </div>
                 <FontAwesomeIcon
@@ -182,11 +170,8 @@ function Services() {
               >
                 <div>
                   <h3>Service 1</h3>
-                  <a
-                    href="#"
-                    className="text-primary text-decoration-underline cardLinks"
-                  >
-                    See More
+                  <a className="text-primary text-decoration-underline cardLinks">
+                    See Details
                   </a>
                 </div>
                 <FontAwesomeIcon

@@ -18,6 +18,20 @@ function Refrences() {
           <img src={Fablab} height={100} className="refrence" />
         </div>
       </div>
+      <div class="scroll-parent">
+        <div class="scroll-element primary pe-3">
+          <img src={Teknopark} height={100} className="refrence" />
+          <img src={Tubitak} height={100} className="refrence" />
+          <img src={Target} height={100} className="refrence" />
+          <img src={Fablab} height={100} className="refrence" />
+        </div>
+        <div class="scroll-element secondary">
+          <img src={Teknopark} height={100} className="refrence" />
+          <img src={Tubitak} height={100} className="refrence" />
+          <img src={Target} height={100} className="refrence" />
+          <img src={Fablab} height={100} className="refrence" />
+        </div>
+      </div>
     </>
   );
 }

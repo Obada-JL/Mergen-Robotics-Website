@@ -26,8 +26,9 @@
 }
 .mainCardText:hover {
   scale: 103%;
-  border-color: green !important;
-  transition-property: scale, border-color;
+  border-color: #2b8d76 !important;
+  box-shadow: 3px 3px 5px #2b8d76;
+  transition-property: scale, border-width, box-shadow;
 }
 .serviceCard > div > div > h3 {
   font-weight: 600 !important;
@@ -35,6 +36,8 @@
 .cardsContainer {
   /* height: calc(var(--card-height) * 2 - 45px); */
   /* justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 .serviceCard:nth-child(even) {
   /* align-self: flex-end; */

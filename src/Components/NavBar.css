@@ -23,11 +23,11 @@
   color: white !important;
 }
 .nav-link {
-  color: #ffffffcc;
+  color: white;
   font-weight: 600;
   font-size: 18px;
 }
 .nav-link:hover {
-  color: white;
+  color: #a2acb4;
   text-decoration: underline;
 }

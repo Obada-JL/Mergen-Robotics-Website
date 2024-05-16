@@ -33,6 +33,7 @@ textarea.ContactInput {
   height: 250px;
   background-color: rgb(192, 192, 192);
   border-radius: 25px;
+  flex-wrap: wrap;
 }
 .contactCard {
   display: flex;
@@ -43,7 +44,8 @@ textarea.ContactInput {
   flex: 1 0 0;
 }
 .contactCardIcon {
-  background-color: aquamarine;
+  background-color: #05979d;
+  color: white;
   padding: 20px;
   border-radius: 50%;
   width: 100px;
@@ -52,6 +54,9 @@ textarea.ContactInput {
   justify-content: center;
   align-items: center;
   margin-top: -50px;
+}
+.contactCardIcon > svg {
+  margin-bottom: 0;
 }
 .namesContainer {
   display: flex;

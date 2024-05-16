@@ -18,7 +18,10 @@ function Contact() {
             </p>
           </div>
           <div>
-            <form className="d-flex flex-column gap-3 align-items-center">
+            <form
+              className="d-flex flex-column gap-3 align-items-center"
+              style={{ flexWrap: "wrap" }}
+            >
               <div className="d-flex gap-5">
                 <label htmlFor="Name">
                   <input
