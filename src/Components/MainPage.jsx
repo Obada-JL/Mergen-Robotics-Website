@@ -44,7 +44,7 @@ function MainPage() {
         id="contact"
         className="pt-5 pb-5"
         style={{
-          backgroundColor: "#00a299",
+          backgroundColor: "#03989e",
           // background: "rgb(43,141,118)",
           // background:
           //   " linear-gradient(142deg, rgba(43,141,118,1) 45%, rgba(21,82,65,1) 79%)",
