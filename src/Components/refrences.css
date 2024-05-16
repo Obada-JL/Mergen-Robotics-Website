@@ -30,7 +30,7 @@
   position: absolute;
   left: 0%;
   top: 0%;
-  animation: primary 15s linear infinite;
+  animation: primary 20s linear infinite;
   display: flex;
   gap: 120px;
 }
@@ -38,7 +38,7 @@
   position: absolute;
   overflow: hidden;
   flex-wrap: nowrap;
-  animation: primary 7.5s linear infinite;
+  animation: primary 10s linear infinite;
   display: flex;
   padding-top: 10px;
 }
@@ -47,7 +47,7 @@
   position: absolute;
   overflow: hidden;
   flex-wrap: nowrap;
-  animation: secondary 7.5s linear infinite;
+  animation: secondary 10s linear infinite;
   display: flex;
   padding-top: 10px;
 }
