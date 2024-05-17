@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Title.css";
 
 function Title() {
@@ -15,9 +16,9 @@ function Title() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
           libero cum aut similique reprehenderit omnis,
         </p>
-        <button className="titleButton text-light">
+        <Link to={"/aboutUs"} className="titleButton text-light btn ">
           Devamını oku <span className="h5 fw-bold">&rarr;</span>
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,7 +1,22 @@
 .ServicesPageContainer {
-  height: 450px;
+  height: 500px;
 }
 .ServicesHeader {
   margin-top: -90px;
   font-size: 50px;
+}
+.serviceImg {
+  width: 150px;
+}
+.serviceImg > img {
+  max-width: 100%;
+}
+.serviceCardContainer {
+  width: 450px;
+  height: 575px;
+  padding: 5px 15px;
+  background-color: rgb(240, 240, 240);
+  border: 2px solid black;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }

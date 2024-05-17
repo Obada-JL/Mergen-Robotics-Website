@@ -1,6 +1,7 @@
 import "./Services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 function Services() {
   const openCard = (e) => {
     const detailsCard = document.getElementsByClassName("detailCard");
@@ -57,12 +58,12 @@ function Services() {
                   Description Lorem ipsum dolor sit amet Lorem ipsum, dolor sit
                   amet consectetur adipisicing elit.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/services"}
                   className="text-primary text-decoration-underline cardLinks"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="serviceCard">
@@ -89,12 +90,12 @@ function Services() {
                   Description Lorem ipsum dolor sit amet Lorem ipsum, dolor sit
                   amet consectetur adipisicing elit.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/services"}
                   className="text-primary text-decoration-underline cardLinks"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="serviceCard">
@@ -121,12 +122,12 @@ function Services() {
                   Description Lorem ipsum dolor sit amet Lorem ipsum, dolor sit
                   amet consectetur adipisicing elit.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/services"}
                   className="text-primary text-decoration-underline cardLinks"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="serviceCard">
@@ -153,12 +154,12 @@ function Services() {
                   Description Lorem ipsum dolor sit amet Lorem ipsum, dolor sit
                   amet consectetur adipisicing elit.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/services"}
                   className="text-primary text-decoration-underline cardLinks"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="serviceCard">
@@ -185,12 +186,12 @@ function Services() {
                   Description Lorem ipsum dolor sit amet Lorem ipsum, dolor sit
                   amet consectetur adipisicing elit.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={"/services"}
                   className="text-primary text-decoration-underline cardLinks"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

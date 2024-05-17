@@ -5,7 +5,7 @@ function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid navContainer">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/#">
             <img src={NavLogo} width={135} />
           </a>
           <button
@@ -21,7 +21,7 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="/#">
                 AnaSayfa
               </a>
               <a className="nav-link" href="/#">

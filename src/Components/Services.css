@@ -35,12 +35,9 @@
 }
 .cardsContainer {
   /* height: calc(var(--card-height) * 2 - 45px); */
-  /* justify-content: center; */
   display: flex;
-  justify-content: center;
 }
 .serviceCard:nth-child(even) {
-  /* align-self: flex-end; */
   margin-top: calc(var(--card-height) - 25px);
 }
 .cardLinks {

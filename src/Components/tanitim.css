@@ -1,0 +1,55 @@
+.AboutPageContainer {
+  height: 500px;
+}
+.aboutHeader {
+  margin-bottom: 15px;
+  font-size: 44px;
+  font-weight: bold;
+}
+.textSection {
+  max-width: 600px;
+  margin-left: 50px;
+}
+.successContanier {
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 15px 20px;
+  border-radius: 17px;
+}
+.successContanier {
+  font-weight: 600;
+}
+.aboutUs {
+  flex: 33.3%;
+}
+.aboutHeader {
+  margin-bottom: 13px;
+  font-size: 25px;
+}
+.aboutParagraph {
+  color: #6b6b84;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.imgContainer {
+  visibility: visible;
+  animation-duration: 1500ms;
+  animation-delay: 0ms;
+  animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
