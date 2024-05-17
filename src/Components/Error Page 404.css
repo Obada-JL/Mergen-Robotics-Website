@@ -1,0 +1,14 @@
+.text404 {
+  font-size: 180px;
+  font-weight: bold;
+  color: rgb(12, 132, 121);
+  text-align: center;
+}
+.errorTitle {
+  font-size: 40px;
+}
+.errorTitle span {
+  color: rgb(12, 132, 121);
+  padding-right: 5px;
+  padding-left: 5px;
+}
