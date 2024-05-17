@@ -6,9 +6,10 @@ function Tanitim() {
   return (
     <>
       <div>
-        <div className="firstSectionContainer AboutPageContainer">
-          <h1 className="text-light text-decoration-underline">Hakkımızda</h1>
-        </div>
+        <div className="firstSectionContainer AboutPageContainer"></div>
+        <h1 className="text-center h1 mt-5 fw-bold text-decoration-underline allPageTitle">
+          Hakkımızda
+        </h1>
         <div className="d-flex justify-content-around gap-3 mt-5 mb-5">
           <div style={{ flex: "40%" }} className="imgContainer">
             <img src={img} />

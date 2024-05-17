@@ -4,6 +4,8 @@ import "./ServicesPage.css";
 import { faGears } from "@fortawesome/free-solid-svg-icons";
 import img1 from "../assets/Screenshot 2024-05-17 095359.png";
 import img2 from "../assets/Screenshot 2024-05-17 095417.png";
+import img from "../assets/img1-removebg-preview.png";
+import icon from "../assets/icon2.png";
 import { useEffect, useState } from "react";
 function ServicesPage() {
   const ServiceInfo = [
@@ -77,9 +79,70 @@ function ServicesPage() {
       <div>
         <div className="firstSectionContainer ServicesPageContainer"></div>
         <div>
-          <h1 className="text-center text-light text-decoration-underline fw-bold ServicesHeader mb-5">
+          <h1 className="text-center text-decoration-underline fw-bold ServicesHeader mb-5 mt-5">
             Hizmetlerimiz
           </h1>
+        </div>
+        <div className="d-flex justify-content-around gap-3 mt-5 mb-5 pt-5">
+          <div style={{ flex: "40%" }} className="imgContainer">
+            <img src={img} />
+          </div>
+          <div
+            style={{ flex: "60%" }}
+            className="d-flex justify-content-center"
+          >
+            <div className="textSection ">
+              <h2 className="aboutHeader">
+                Mühendislik, Teknoloji ve Danışmanlık alanlarında yüksek
+                standartlarda çözümler
+              </h2>
+              <p className="text-secondary">
+                Tecrübeli teknik ekibimizle hayallerinizi tasarlıyoruz.
+              </p>
+              <div className="d-flex flex-column gap-5 mt-3">
+                <div className="d-flex gap-5 mt-3">
+                  <div className="d-flex successContanier">
+                    <div>
+                      <img src={icon} width={45} />
+                    </div>
+                    <div className="fw-bold">
+                      <div>+10 Yıl</div>
+                      <div>Pazar Deneyimi</div>
+                    </div>
+                  </div>
+                  <div className="d-flex successContanier">
+                    <div>
+                      <img src={icon} width={45} />
+                    </div>
+                    <div className="fw-bold">
+                      <div>+10 Yıl</div>
+                      <div>Pazar Deneyimi</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex gap-5">
+                  <div className="d-flex successContanier">
+                    <div>
+                      <img src={icon} width={45} />
+                    </div>
+                    <div className="fw-bold">
+                      <div>+10 Yıl</div>
+                      <div>Pazar Deneyimi</div>
+                    </div>
+                  </div>
+                  <div className="d-flex successContanier">
+                    <div>
+                      <img src={icon} width={45} />
+                    </div>
+                    <div className="fw-bold">
+                      <div>+10 Yıl</div>
+                      <div>Pazar Deneyimi</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="d-flex justify-content-center flex-wrap gap-4 pt-5">
           <div className="serviceCardContainer">

@@ -1,8 +1,5 @@
 .AboutPageContainer {
   height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
 }
 .aboutHeader {
   margin-bottom: 15px;
@@ -55,4 +52,7 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
+}
+.allPageTitle {
+  font-size: 50px;
 }

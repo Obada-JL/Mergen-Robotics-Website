@@ -1,8 +1,17 @@
 .ServicesPageContainer {
   height: 500px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      132deg,
+      rgba(0, 0, 0, 0.19380252100840334) 22%,
+      rgba(0, 0, 0, 0.40948879551820727) 52%
+    ),
+    url("../assets/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ServicesHeader {
-  margin-top: -90px;
+  /* margin-top: -90px; */
   font-size: 50px;
 }
 .serviceImg {
